@@ -6,7 +6,7 @@ class Producto():
     def total(self):
         print(f'Total:{self.unidades*self.precio}€')
 
-producto1=Producto('camisa',15,9.95)
+producto1=Producto('camisa',155,9.95)
 producto2=Producto('chaquetas',20,19.95)
 
 producto1.total()
